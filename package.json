@@ -21,6 +21,6 @@
     "request": "^2.79.0"
   },
    "scripts": {
-    "start": "node server"
+    "start": "node server.js"
   }
 }
