@@ -19,16 +19,12 @@ app.get('/', function (req, res) {
 })
 
 // for Facebook verification
-app.get('/webhook/', function (req, res) {
-
-    console.log(req.query['hub.verify_token'])
-    res.send(req.query['hub.challenge'])
-    
-    if (req.query['hub.verify_token'] === '2181ae91-2249-4d41-938f-6a538b8107b8') {
-        res.send(req.query['hub.challenge'])
-    }
-    res.send('Error, wrong token')
-})
+//app.get('/webhook/', function (req, res) {
+    //if (req.query['hub.verify_token'] === '2181ae91-2249-4d41-938f-6a538b8107b8') {
+      //  res.send(req.query['hub.challenge'])
+  //  }
+  //  res.send('Error, wrong token')
+//})
 
 // Spin up the server
 app.listen(app.get('port'), function() {
