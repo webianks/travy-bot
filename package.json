@@ -4,6 +4,7 @@
   "description": "Your travel helper chat bot.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,8 +20,5 @@
     "body-parser": "^1.16.1",
     "express": "^4.14.1",
     "request": "^2.79.0"
-  },
-   "scripts": {
-    "start": "node index.js"
   }
 }
