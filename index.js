@@ -18,6 +18,9 @@ app.get('/', function (req, res) {
     res.send('Hello world, I am a chat bot')
 })
 
+console.log(req.query['hub.verify_token'])
+
+
 // for Facebook verification
 app.get('/webhook/', function (req, res) {
     if (req.query['hub.verify_token'] === '2181ae91-2249-4d41-938f-6a538b8107b8') {
