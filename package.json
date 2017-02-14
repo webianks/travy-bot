@@ -1,0 +1,23 @@
+{
+  "name": "travel_bot",
+  "version": "1.0.0",
+  "description": "Your travel helper chat bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "travel",
+    "bot"
+  ],
+  "author": "Ramankit Singh",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "6.9.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "request": "^2.79.0"
+  }
+}
