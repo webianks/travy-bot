@@ -22,7 +22,8 @@ app.get('/', function (req, res) {
 app.get('/webhook/', function (req, res) {
 
     console.log(req.query['hub.verify_token'])
-
+    res.send(req.query['hub.challenge'])
+    
     if (req.query['hub.verify_token'] === '2181ae91-2249-4d41-938f-6a538b8107b8') {
         res.send(req.query['hub.challenge'])
     }
