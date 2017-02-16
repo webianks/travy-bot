@@ -1,0 +1,21 @@
+{
+  "name": "Travy-bot",
+  "description": "Your travel helper bot.",
+  "repository": "https://github.com/webianks/travy-bot",
+  "logo": "https://avatars2.githubusercontent.com/u/4723433",
+  "keywords": ["node", "express", "github", "wit", "bot", "facebook","travel"],
+  "env": {
+    "WIT_TOKEN": {
+      "description": "Server Access Token from wit.ai (see your wit app settings).",
+      "required": true
+    },
+    "FB_PAGE_TOKEN": {
+      "description": "Facebook Page Token from https://developers.facebook.com/apps/",
+      "required": true
+    },
+    "FB_VERIFY_TOKEN": {
+      "description": "Facebook verification Token. You can make it up.",
+      "required": false
+    }
+  }
+}
